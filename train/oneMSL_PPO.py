@@ -50,14 +50,14 @@ config = (
     .resources(num_gpus=num_gpus)
     .training(
         train_batch_size=train_batch_size,
-        # lr=lr,
-        # lambda_=lambda_,
-        # kl_coeff=kl_coeff,
+        lr=lr,
+        lambda_=lambda_,
+        kl_coeff=kl_coeff,
         sgd_minibatch_size=sgd_minibatch_size,
-        # num_sgd_iter=num_sgd_iter,
-        # entropy_coeff=entropy_coeff,
-        # clip_param=clip_param,
-        # gamma=gamma,
+        num_sgd_iter=num_sgd_iter,
+        entropy_coeff=entropy_coeff,
+        clip_param=clip_param,
+        gamma=gamma,
         model=model,
     )
     .environment(env=oneMSL,

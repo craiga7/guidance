@@ -35,6 +35,8 @@ Trained Runs:
 /home/risclab/ray_results/PPO_oneMSL_2023-12-05_10-57-26cbadccvf/checkpoint_000361
 /home/risclab/ray_results/PPO_oneMSL_2023-12-05_11-15-107v16lwel/checkpoint_000311
 /home/risclab/ray_results/PPO_oneMSL_2023-12-05_11-52-40yhpfrh0t/checkpoint_000500
+/home/risclab/ray_results/PPO_oneMSL_2023-12-05_12-59-10yvz0kp2j/checkpoint_000500
+/home/risclab/ray_results/PPO_oneMSL_2023-12-05_13-38-297_ki1l_i/checkpoint_000500
 
 # PNC
 /home/risclab/ray_results/PPO_oneMSL_2023-11-30_11-42-28bit5i__n/checkpoint_000500
@@ -50,7 +52,7 @@ else: episodes = 10
 
 # paths for restore
 controller = "PN_act"
-path = "/home/risclab/ray_results/PPO_oneMSL_2023-12-05_11-52-40yhpfrh0t/checkpoint_000500" 
+path = "/home/risclab/ray_results/PPO_oneMSL_2023-12-05_13-38-297_ki1l_i/checkpoint_000500" 
 path_fig = "/home/risclab/ray_results/PPO_oneMSL_05DEC23"
 act_type = params["act_type"]
 obs_type = params["obs_type"]

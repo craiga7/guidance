@@ -42,7 +42,7 @@ params = {
             "g": 9.806650,                      # Constant gravity (m/s^2) (float)
             "num_targets": 1,                   # Number of targets (int)
             "num_missiles": 1,                  # Number of missiles (int)
-            "engagement_radius": 5.0,         # Crash Radius of a missile (float)
+            "engagement_radius": 50.0,         # Crash Radius of a missile (float)
             "end_time": 40.0,                   # Defines simulation end time (sec) (int)
             "engagement_time": 30.0,            # Defines drone response time (sec) (float)
             "dynamic_steps" : 1,                # Dynamic physic steps in step call (int)
@@ -74,7 +74,7 @@ params = {
             "kl_coeff": 0.5,                     # Alpha: Initial coefficient for KL divergence (Default: 0.2)
             "kl_target": 0.01,                  # Target value for KL divergence (Default: 0.01)
             "sgd_minibatch_size": 700,           # Total SGD batch size (Default: 128) across all devices for SGD. This defines the minibatch size within each epoch
-            "num_sgd_iter": 10,                  # Epochs: Number of SGD iterations (Default: 30) in each outer loop (i.e., number of epochs to execute per train batch).
+            "num_sgd_iter": 20,                  # Epochs: Number of SGD iterations (Default: 30) in each outer loop (i.e., number of epochs to execute per train batch).
             "shuffle_sequences": True,          # Whether to shuffle sequences (Default: True) in the batch when training
             "vf_loss_coeff": 1.0,               # Coefficient of the value function loss (Default: 1.0). IMPORTANT: you must tune this if you set vf_share_layers=True inside your model’s config
             "entropy_coeff": 0.01,               # Beta: Coefficient of the entropy regularizer. (Default: 0.0)
